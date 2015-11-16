@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'DTLNobelT-Light';
+  src: url('DTLNobelT-Light.eot?#iefix') format('embedded-opentype'),  url('DTLNobelT-Light.otf')  format('opentype'),
+	     url('DTLNobelT-Light.woff') format('woff'), url('DTLNobelT-Light.ttf')  format('truetype'), url('DTLNobelT-Light.svg#DTLNobelT-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

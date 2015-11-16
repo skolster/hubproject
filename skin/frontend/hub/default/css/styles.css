@@ -1,0 +1,300 @@
+/*@font-face {
+  font-family: DTLNobelT;
+  src: url(fonts/DTLNobelT);
+}*/
+/*box-shadow: 0 5px 5px #000000;
+-webkit-box-shadow: 0 5px 5px #000000;
+-o-box-shadow: 0 5px 5px #000000;
+-moz-box-shadow: 0 5px 5px #000000;*/
+@font-face {
+  font-family: "DTLNobelT";
+  src: url('../scss/fonts/DTLNobelT/DTLNobelT.eot?1429213036');
+  src: url('../scss/fonts/DTLNobelT/DTLNobelT.eot?&1429213036#iefix') format('embedded-opentype'), url('../scss/fonts/DTLNobelT/DTLNobelT.woff?1429213036') format('woff'), url('../scss/fonts/DTLNobelT/DTLNobelT.ttf?1429213036') format('truetype'), url('../scss/fonts/DTLNobelT/DTLNobelT.svg?1429213036') format('svg');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "DTLNobelT";
+  src: url('../scss/fonts/DTLNobelT-Bold/DTLNobelT-Bold.eot?1429213000');
+  src: url('../scss/fonts/DTLNobelT-Bold/DTLNobelT-Bold.eot?&1429213000#iefix') format('embedded-opentype'), url('../scss/fonts/DTLNobelT-Bold/DTLNobelT-Bold.woff?1429213001') format('woff'), url('../scss/fonts/DTLNobelT-Bold/DTLNobelT-Bold.ttf?1429213000') format('truetype'), url('../scss/fonts/DTLNobelT-Bold/DTLNobelT-Bold.svg?1429213001') format('svg');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "DTLNobelT";
+  src: url('../scss/fonts/DTLNobelT-Light/DTLNobelT-Light.eot?1429212951');
+  src: url('../scss/fonts/DTLNobelT-Light/DTLNobelT-Light.eot?&1429212951#iefix') format('embedded-opentype'), url('../scss/fonts/DTLNobelT-Light/DTLNobelT-Light.woff?1429212952') format('woff'), url('../scss/fonts/DTLNobelT-Light/DTLNobelT-Light.ttf?1429212951') format('truetype'), url('../scss/fonts/DTLNobelT-Light/DTLNobelT-Light.svg?1429212952') format('svg');
+  font-weight: 300;
+}
+@font-face {
+  font-family: "DTLNobelT";
+  src: url('../scss/fonts/DTLNobelT-LightItalic/DTLNobelT-LightItalic.eot?1429213216');
+  src: url('../scss/fonts/DTLNobelT-LightItalic/DTLNobelT-LightItalic.eot?&1429213216#iefix') format('embedded-opentype'), url('../scss/fonts/DTLNobelT-LightItalic/DTLNobelT-LightItalic.woff?1429213217') format('woff'), url('../scss/fonts/DTLNobelT-LightItalic/DTLNobelT-LightItalic.ttf?1429213216') format('truetype'), url('../scss/fonts/DTLNobelT-LightItalic/DTLNobelT-LightItalic.svg?1429213217') format('svg');
+  font-weight: 100;
+}
+.wrapper {
+  width: 1600px;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 100%;
+}
+
+.message {
+  background: #f7fafa;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 -15px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  width: 1600px;
+  position: relative;
+  left: 15px;
+}
+
+* {
+  list-style: none;
+}
+
+body {
+  font-family: 'DTLNobelT';
+  background: #f0f2f2;
+  height: 100%;
+}
+
+.menu ul {
+  margin: 0 auto;
+  width: 70%;
+  float: right;
+  list-style: none;
+  border: 1px solid red;
+}
+
+.footer {
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: 700;
+  position: relative;
+  top: 100px;
+  right: 800px;
+}
+
+.menu {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.menu ul li {
+  text-decoration: none;
+  text-align: center;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+.menu ul li a {
+  float: left;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+}
+
+.logo {
+  float: left;
+  position: relative;
+  border: 1px solid #201b80;
+}
+.logo img {
+  width: 130px;
+  height: 160px;
+}
+
+strong, b {
+  font-weight: 700;
+  position: relative;
+  top: 100px;
+  right: 800px;
+}
+
+.page-title {
+  width: 1600px;
+  display: inline;
+}
+
+.navigation {
+  width: 1600px;
+  display: inline;
+}
+
+.search {
+  width: 28px;
+  height: 28px;
+  padding: 10px;
+}
+
+.acc {
+  width: 22px;
+  height: 22px;
+  padding: 10px;
+}
+
+.euro1 {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+.bag {
+  width: 22px;
+  height: 22px;
+  padding: 10px;
+}
+
+.balance {
+  font-weight: 300;
+  font-size: 11px;
+  padding: 10px;
+}
+
+.button.button {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.button.button {
+  display: block;
+  background: #000;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.button.button :hover, .button.button :focus, .button.button :active {
+  color: white;
+}
+
+.button.button :before, .button.button :before, .button.button :before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/*.btn-1c::after {
+  background: #fff none repeat scroll 0 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+.btn-1c:hover, .btn-1c:active {
+  color: #000000;
+}
+.btn-1c:hover::after, .btn-1c:active::after {
+  width: 100%;
+}
+
+.btn {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 15px 30px;
+  outline: medium none;
+  padding: 25px 80px;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  z-index: -1;
+}
+.btn::before, .icon-heart::after, .icon-star::after, .icon-plus::after, .icon-file::before {
+  font-family: "icomoon";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  position: relative;
+  text-transform: none;
+}
+
+.btn-1 {
+  border: 3px solid #000000;
+  color: #fff;
+}*/
+.button::after {
+  background: #fff none repeat scroll 0 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+
+.button:hover, .button:active {
+  color: #000000;
+}
+
+.button:hover::after, .button:active::after {
+  width: 100%;
+}
+
+.button {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 15px 30px;
+  outline: medium none;
+  padding: 25px 80px;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  z-index: -1;
+}
+
+.button::before, .icon-heart::after, .icon-star::after, .icon-plus::after, .icon-file::before {
+  font-family: "icomoon";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  position: relative;
+  text-transform: none;
+}
+
+.button {
+  border: 3px solid #000000;
+  color: #fff;
+}

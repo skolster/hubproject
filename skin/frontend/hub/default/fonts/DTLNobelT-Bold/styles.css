@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'DTLNobelT-Bold';
+  src: url('DTLNobelT-Bold.eot?#iefix') format('embedded-opentype'),  url('DTLNobelT-Bold.otf')  format('opentype'),
+	     url('DTLNobelT-Bold.woff') format('woff'), url('DTLNobelT-Bold.ttf')  format('truetype'), url('DTLNobelT-Bold.svg#DTLNobelT-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

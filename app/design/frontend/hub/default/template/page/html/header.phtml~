@@ -1,0 +1,27 @@
+
+<div class="header">
+	<div class="message">
+	FREE SHIPPING on orders above $ 100,00
+
+	<div class="section">
+	<div class="logotype">
+		<img src="<?php echo $this->getSkinUrl('images/i_notice.gif'); ?>" border="0">
+	</div>
+	</div>
+	<div class="navigation">
+		<div class="icons">
+			
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Men</a></li>
+				<li><a href="">Women</a></li>
+				<li><a href="">Video</a></li>
+				<li><a href="">About us</a></li>
+				<li><a href="">Stores</a></li>
+			</ul>
+		</div>
+	</div>
+		</div>
+</div>

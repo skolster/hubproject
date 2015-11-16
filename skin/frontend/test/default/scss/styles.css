@@ -1,0 +1,64 @@
+@font-face {
+  font-family: DTLNobelT;
+  src: url(fonts/DTLNobelT); }
+.wrapper {
+  width: 1600px;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 100%; }
+
+.message {
+  background: #f7fafa;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 -15px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  width: 1600px;
+  position: relative;
+  left: 15px; }
+
+body {
+  font-family: 'DTLNobelT';
+  background: #f0f2f2;
+  height: 100%; }
+
+.menu ul {
+  list-style: none;
+  margin: 0 auto;
+  width: 450px;
+  float: left; }
+
+h2 {
+  font-weight: 700;
+  position: relative;
+  top: 52px; }
+
+.menu {
+  text-align: center; }
+
+.menu ul li {
+  text-decoration: none;
+  text-align: left;
+  line-height: 52px;
+  font-weight: bold;
+  padding: 0 50px; }
+
+.menu ul li a {
+  float: left;
+  text-decoration: none;
+  text-align: center; }
+
+.logo {
+  float: left;
+  position: relative;
+  top: -10px; }
+  .logo img {
+    float: left;
+    width: 130px;
+    height: 160px;
+    margin: -45px 20px 20px 200px; }
+
+/*# sourceMappingURL=styles.css.map */

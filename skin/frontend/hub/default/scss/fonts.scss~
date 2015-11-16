@@ -1,0 +1,6 @@
+@import "compass/css3";
+@include font-face("DTLNobelT", font-files("DTLNobelT/DTLNobelT.woff", "DTLNobelT/DTLNobelT.ttf", "DTLNobelT/DTLNobelT.svg"), "DTLNobelT/DTLNobelT.eot", normal);
+@include font-face("DTLNobelT", font-files("DTLNobelT-Bold/DTLNobelT-Bold.woff", "DTLNobelT-Bold/DTLNobelT-Bold.ttf", "DTLNobelT-Bold/DTLNobelT-Bold.svg"), "DTLNobelT-Bold/DTLNobelT-Bold.eot", bold);
+@include font-face("DTLNobelT", font-files("DTLNobelT-Light/DTLNobelT-Light.woff", "DTLNobelT-Light/DTLNobelT-Light.ttf", "DTLNobelT-Light/DTLNobelT-Light.svg"), "DTLNobelT-Light/DTLNobelT-Light.eot", 300);
+@include font-face("DTLNobelT", font-files("DTLNobelT-LightItalic/DTLNobelT-LightItalic.woff", "DTLNobelT-LightItalic/DTLNobelT-LightItalic.ttf", "DTLNobelT-LightItalic/DTLNobelT-LightItalic.svg"), "DTLNobelT-LightItalic/DTLNobelT-LightItalic.eot", 100);
+

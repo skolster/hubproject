@@ -1,0 +1,112 @@
+//
+// Magento
+//
+// NOTICE OF LICENSE
+//
+// This source file is subject to the Academic Free License (AFL 3.0)
+// that is bundled with this package in the file LICENSE_AFL.txt.
+// It is also available through the world-wide-web at this URL:
+// http://opensource.org/licenses/afl-3.0.php
+// If you did not receive a copy of the license and are unable to
+// obtain it through the world-wide-web, please send an email
+// to license@magento.com so we can send you a copy immediately.
+//
+// DISCLAIMER
+//
+// Do not edit or add to this file if you wish to upgrade Magento to newer
+// versions in the future. If you wish to customize Magento for your
+// needs please refer to http://www.magento.com for more information.
+//
+// @category    design
+// @package     rwd_default
+// @copyright   Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
+// @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+//
+
+// ==============================================
+// Core Application / Full MQ Support
+// ==============================================
+@font-face {
+  font-family: DTLNobelT;
+  src: url(fonts/DTLNobelT);
+}
+
+.wrapper {
+  width: 1600px;
+  margin: 0 auto;
+  background-color: #fff;
+
+  height: 100%;
+}
+
+.message {
+  background: #f7fafa;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 -15px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  width: 1600px;
+  position: relative;
+  left: 15px;
+
+}
+* {
+
+}
+
+
+
+
+body {
+  font-family: 'DTLNobelT';
+  background: #f0f2f2;
+  height: 100%;
+}
+.menu ul{
+  list-style: none;
+  margin: 0 auto;
+  width: 450px;
+  float: left;
+
+}
+h2 {
+  font-weight: 700;
+  position: relative;
+  top: 52px;
+}
+
+.menu {
+  text-align: center;
+
+} //check if needed or not
+.menu ul li{
+  text-decoration: none;
+  text-align: left;
+  line-height: 52px;
+  font-weight: bold;
+  padding:0 50px;
+
+}
+
+.menu ul li a{
+  float: left;
+
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.logo {
+  float: left;
+   position: relative;
+  top: -10px;
+  img {
+    float: left;
+    width: 130px;
+    height: 160px;
+    margin: -45px 20px 20px 200px;
+  }
+}

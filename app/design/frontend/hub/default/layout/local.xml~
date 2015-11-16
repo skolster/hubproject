@@ -1,0 +1,9 @@
+<layout>
+    <default>
+        <!-- It is default handler which will work for all pages -->
+        <reference name="head">
+            <!-- Here we can add/remove js and css -->
+        </reference>
+        <remove name="left"/>
+    </default>
+</layout>

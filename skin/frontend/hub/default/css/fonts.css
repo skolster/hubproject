@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "DTLNobelT";
+  src: url('../scss/fonts/DTLNobelT/DTLNobelT.eot?1429213036');
+  src: url('../scss/fonts/DTLNobelT/DTLNobelT.eot?&1429213036#iefix') format('embedded-opentype'), url('../scss/fonts/DTLNobelT/DTLNobelT.woff?1429213036') format('woff'), url('../scss/fonts/DTLNobelT/DTLNobelT.ttf?1429213036') format('truetype'), url('../scss/fonts/DTLNobelT/DTLNobelT.svg?1429213036') format('svg');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "DTLNobelT";
+  src: url('../scss/fonts/DTLNobelT-Bold/DTLNobelT-Bold.eot?1429213000');
+  src: url('../scss/fonts/DTLNobelT-Bold/DTLNobelT-Bold.eot?&1429213000#iefix') format('embedded-opentype'), url('../scss/fonts/DTLNobelT-Bold/DTLNobelT-Bold.woff?1429213001') format('woff'), url('../scss/fonts/DTLNobelT-Bold/DTLNobelT-Bold.ttf?1429213000') format('truetype'), url('../scss/fonts/DTLNobelT-Bold/DTLNobelT-Bold.svg?1429213001') format('svg');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "DTLNobelT";
+  src: url('../scss/fonts/DTLNobelT-Light/DTLNobelT-Light.eot?1429212951');
+  src: url('../scss/fonts/DTLNobelT-Light/DTLNobelT-Light.eot?&1429212951#iefix') format('embedded-opentype'), url('../scss/fonts/DTLNobelT-Light/DTLNobelT-Light.woff?1429212952') format('woff'), url('../scss/fonts/DTLNobelT-Light/DTLNobelT-Light.ttf?1429212951') format('truetype'), url('../scss/fonts/DTLNobelT-Light/DTLNobelT-Light.svg?1429212952') format('svg');
+  font-weight: 300;
+}
+@font-face {
+  font-family: "DTLNobelT";
+  src: url('../scss/fonts/DTLNobelT-LightItalic/DTLNobelT-LightItalic.eot?1429213216');
+  src: url('../scss/fonts/DTLNobelT-LightItalic/DTLNobelT-LightItalic.eot?&1429213216#iefix') format('embedded-opentype'), url('../scss/fonts/DTLNobelT-LightItalic/DTLNobelT-LightItalic.woff?1429213217') format('woff'), url('../scss/fonts/DTLNobelT-LightItalic/DTLNobelT-LightItalic.ttf?1429213216') format('truetype'), url('../scss/fonts/DTLNobelT-LightItalic/DTLNobelT-LightItalic.svg?1429213217') format('svg');
+  font-weight: 100;
+}
